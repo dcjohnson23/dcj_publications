@@ -1,2 +1,2 @@
 # dcj_publications
-scripts_publication
+scripts_publications
