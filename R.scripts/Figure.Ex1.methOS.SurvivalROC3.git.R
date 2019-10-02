@@ -15,13 +15,13 @@ library(survivalROC)
 #window window for NNE, either of symmetric or asymmetric
 
 #create ROC calculation
-SurvROC= survivalROC(My11.demo.int.cpg$OS.months, status=My11.demo.int.cpg$OS.status, 
-            marker=My11.demo.int.cpg$cg00216138, 
+SurvROC= survivalROC(data11.demo.int.cpg$OS.months, status=data11.demo.int.cpg$OS.status, 
+            marker=data11.demo.int.cpg$cg00216138, 
             predict.time=24.0,
             method = "KM")
 
-SurvROC= survivalROC(My11.demo.int.cpg$OS.months, status=My11.demo.int.cpg$OS.status, 
-                     marker=My11.demo.int.cpg$cg00216138, 
+SurvROC= survivalROC(My11.demo.int.cpg$OS.months, status=data11.demo.int.cpg$OS.status, 
+                     marker=data11.demo.int.cpg$cg00216138, 
                      predict.time=24.0,
                      method = "NNE")
 
@@ -63,11 +63,11 @@ AUC_CoSeg = NULL; AUC_CoSegInt = NULL
 for(t in 1:80) {
   AUC_CoSeg = c(AUC_CoSeg, survivalROC(Stime=P425_01_pfs_os_intensive$os_months, 
                                        status=P425_01_pfs_os_intensive$os_status, 
-                                       marker=P425_01_pfs_os_intensive$X..CDKN2C.probe.14652.L16304..01.051.212271_01,  
+                                       marker=P425_01_pfs_os_intensive$X..CDKN2C,  
                                        predict.time=t, method = "KM")$AUC )
   AUC_CoSegInt = c(AUC_CoSegInt, survivalROC(Stime=P425_01_pfs_os_intensive$os_months, 
                                        status=P425_01_pfs_os_intensive$os_status, 
-                                       marker=P425_01_pfs_os_intensive$FAM46C.probe.18949.L24912..01.117.966975_01,  
+                                       marker=P425_01_pfs_os_intensive$FAM46C,  
                                        predict.time=t, method = "KM")$AUC )
 }
 

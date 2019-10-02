@@ -36,7 +36,7 @@ tumourresults=as.data.frame(matrix(NA,nrow=nrow(the926tumour),ncol=4))
 for(i in 1:nrow(the926tumour)){
   theCounts = function(samplename){
     message(paste("PROCESSING:",samplename,i))
-    filepath=paste0("/mnt/HPC_haem/cwardell/analysis/exomes/",samplename,"/realignedBAM/dedup.realigned.bam")
+    filepath=paste0("/mnt/exomes/",samplename,"/realignedBAM/dedup.realigned.bam")
     counts = bam2R(file=filepath,chr="11",start=69462910,stop=69462910)
     gcount = counts[,"G"]+counts[,"g"]
     acount = counts[,"A"]+counts[,"a"]
