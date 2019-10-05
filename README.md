@@ -4,13 +4,13 @@
 
 ###EQTL
 - matrixQTL_Script_dj.git.R  
-- PEER.Apr.UK.git
+- PEER.Apr.UK.git.R
 
 ###WHOLE EXON PROGNOSIS
 - ccnd1_in_500_exomes.R 
 
 OS/PFS GWAS
-covariant.selection.OS.GWAS.git.r
+- covariant.selection.OS.GWAS.git.r
 
 ###DNA METHYLATION
 - CL.Limma.Response.R
