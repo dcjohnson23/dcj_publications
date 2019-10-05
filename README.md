@@ -1,4 +1,4 @@
-# dcj_publications - under construction !! #
+# Publication Scripts - under construction !! #
 
 ## Analyses ##
 
