@@ -36,4 +36,4 @@
 - Surv.neu.mk.commpass.R [- R script](/R.scripts/Surv.neu.mk.commpass.R)
 <img src=/figure3.svg width="1100"> 
 - GVIS.commpass.R [- R script](/R.scripts/GVIS.R)
-<img src=/Gvisplot.Jan31.png width="1100">  
+<img src=/R.scripts/images/Gvisplot.Jan31.png width="1100">  
