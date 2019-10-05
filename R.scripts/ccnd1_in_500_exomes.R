@@ -8,7 +8,7 @@ library(deepSNV)
 sqldo = function(this.sql){
   ## Load MySQL driver and connect to db
   drv = dbDriver("MySQL")
-  con = dbConnect(drv,dbname="XYREMSEQ",host="haemweb.icr.ac.uk",username="haemweb",password="opensesame")
+  con = dbConnect(drv,dbname="XYREMSEQ",host="home",username="homeweb",password="opensesame")
   res=dbSendQuery(con,this.sql) # Execute the query
   resdf=fetch(res,-1) # Get query results as a dataframe
   dbClearResult(res) # Clear query

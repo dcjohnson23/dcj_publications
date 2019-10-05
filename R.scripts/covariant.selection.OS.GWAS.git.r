@@ -237,7 +237,7 @@ library("gbm")
 my.survival.objectB=Surv(data.us$os_months, data.us$os_status)
 cox.glm=gbm(my.survival.objectB ~ sex + iss_com + WHO + pathway + ind.treat + BD.y1_n0 + ptype + lightc + Tx + HRD + CDKN2C_homo_del, data=data2.my11.Xc)
 
-library("BhGLM")
+##library("BhGLM")
 
 
 
@@ -247,10 +247,10 @@ set.seed(2256)
 #ind <- sample(2,nrow(data2.my11.X), replace= T, prob= c(0.7,0.3))
 #train <- data2.my11.X[ind==1,]
 #test <- data2.my11.X[ind==2,]
-library(caTools)
-sample.split(data2.my11.X$os_status, SplitRatio = 0.7) -> split_values
-train1 <- subset(data2.my11.X, split_values==T)
-test1 <- subset(data2.my11.X, split_values==F)
+##library(caTools)
+#sample.split(data2.my11.X$os_status, SplitRatio = 0.7) -> split_values
+#train1 <- subset(data2.my11.X, split_values==T)
+#test1 <- subset(data2.my11.X, split_values==F)
 
 
 
