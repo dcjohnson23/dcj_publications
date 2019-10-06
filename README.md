@@ -21,19 +21,33 @@
 ## Data Visualization ##
  
 *DNA METHYLATION*
+
 - Figure.Ex1.methOS.SurvivalROC3.git.R [- R script](/R.scripts/Figure.Ex1.methOS.SurvivalROC3.git.R)
+
     <img src=/figure3.svg width="1100">  
+
 - Figure3.methOS.ForestPlot_ExpMeis2.git.R [- R script](/R.scripts/Figure3.methOS.ForestPlot_ExpMeis2.git.R)
-    <img src=/R.scripts/images/Fig3.paper.jpgs.jpg width="800">
+
+    <img src=/R.scripts/images/Fig3.paper.jpgs.jpg width="600">
+
 - Figure5.methOS.3.Survminer.18.git.R [- R script](/R.scripts/Figure5.methOS.3.Survminer.18.git.R)
+
     <img src=/figure4.svg width="550">
 
 *NEUTRAL EVOLUTION*
+
 - Response.neu.fig.R [- R script](/R.scripts/Response.neu.fig.R)
+    
     <img src=/figure3.svg width="1100">  
+
 - Vioplot.tnx.hrd.1q.CoMMpass.R [- R script](/R.scripts/Vioplot.tnx.hrd.1q.CoMMpass.R)
+ 
     <img src=/figure3.svg width="1100">  
+
 - Surv.neu.mk.commpass.R [- R script](/R.scripts/Surv.neu.mk.commpass.R)
+
 <img src=/figure3.svg width="1100"> 
+
 - GVIS.commpass.R [- R script](/R.scripts/GVIS.R)
+
 <img src=/R.scripts/images/Gvisplot.Jan31.png width="800">  
