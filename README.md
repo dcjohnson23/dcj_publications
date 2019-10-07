@@ -47,5 +47,5 @@
 
 - qqplot_mann.r [- R script](/R.scripts/qqplot_mann.r)
 
-<img src=/R.scripts/images/Bonedis.meta.90.2.png width="800">
-<img src=/R.scripts/images/Bonedis.meta.mann.plot.90.2.png width="800">  
+<img src=/R.scripts/images/Bonedis.meta.90.2.png width="500">
+<img src=/R.scripts/images/Bonedis.meta.mann.plot.90.2.png width="500">  
