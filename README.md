@@ -1,4 +1,4 @@
-# Publication Scripts - under construction !! #
+# Publication Scripts #
 
 ## Analyses ##
 
@@ -17,22 +17,19 @@
 - CL.Limma.Response.R [- R script](/R.scripts/CL.Limma.Response.R) - 
 - Minfi.Dec.CL.17.2016.R [- R script](/R.scripts/Minfi.Dec.CL.17.2016.R) - QC pipelines to generate Beta-values
 - sur.loop.dv.in.R [- R script](/R.scripts/sur.loop.dv.in.R) - survival loop for methylation probes
+- Figure.Ex1.methOS.SurvivalROC3.git.R [- R script](/R.scripts/Figure.Ex1.methOS.SurvivalROC3.git.R) - ROC analysis
 
 ## Data Visualization ##
  
 *DNA METHYLATION*
 
-- Figure.Ex1.methOS.SurvivalROC3.git.R [- R script](/R.scripts/Figure.Ex1.methOS.SurvivalROC3.git.R)
-
-    <img src=/figure3.svg width="1100">  
-
 - Figure3.methOS.ForestPlot_ExpMeis2.git.R [- R script](/R.scripts/Figure3.methOS.ForestPlot_ExpMeis2.git.R)
 
     <img src=/R.scripts/images/Fig3.paper.jpgs.jpg width="600">
 
-- Figure5.methOS.3.Survminer.18.git.R [- R script](/R.scripts/Figure5.methOS.3.Survminer.18.git.R)
+- Figure2.methOS.3.Survminer.18.git.R [- R script](/R.scripts/Figure2.methOS.3.Survminer.18.git.R)
 
-    <img src=/figure4.svg width="550">
+    <img src=/R.scripts/images/Fig2.paper.jpgs.jpg width="600">
 
 *NEUTRAL EVOLUTION*
 
