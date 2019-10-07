@@ -49,3 +49,8 @@
 
 <img src=/R.scripts/images/Bonedis.meta.90.2.png width="500">
 <img src=/R.scripts/images/Bonedis.meta.mann.plot.90.2.png width="500">  
+
+- kheatmap3.r [- R script](/R.scripts/kheatmap3.r)
+
+<img src=/R.scripts/images/HeatMapRMA_K.jpg width="500">
+<img src=/R.scripts/images/VolcPlot.mixBW.jpg width="500"> 
