@@ -18,6 +18,7 @@
 - Minfi.Dec.CL.17.2016.R [- R script](/R.scripts/Minfi.Dec.CL.17.2016.R) - QC pipelines to generate Beta-values
 - sur.loop.dv.in.R [- R script](/R.scripts/sur.loop.dv.in.R) - survival loop for methylation probes
 - Figure.Ex1.methOS.SurvivalROC3.git.R [- R script](/R.scripts/Figure.Ex1.methOS.SurvivalROC3.git.R) - ROC analysis
+- Conumee.Apr.epic.pts.2017.R [- R script](/R.scripts/Conumee.Apr.epic.pts.2017.R) - Copy number profile from DNA methylation array data
 
 ## Data Visualization ##
  
@@ -45,11 +46,13 @@
 
 <img src=/R.scripts/images/Gvisplot.Jan31.png width="800">  
 
+*SNP ASSOCIATION*
 - qqplot_mann.r [- R script](/R.scripts/qqplot_mann.r)
 
 <img src=/R.scripts/images/Bonedis.meta.90.2.png width="500">
 <img src=/R.scripts/images/Bonedis.meta.mann.plot.90.2.png width="500">  
 
+*RNA EXPRESSION*
 - kheatmap3.r [- R script](/R.scripts/kheatmap3.r)
 
 <img src=/R.scripts/images/HeatMapRMA_K.jpg width="500">
