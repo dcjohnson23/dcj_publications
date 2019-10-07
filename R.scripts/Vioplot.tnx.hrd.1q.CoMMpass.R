@@ -129,7 +129,7 @@ prim
 IA9_CNV_BL$any.Tnx[IA9_fig_vio$any.tnx=="t11_14" | IA9_fig_vio$any.tnx=="t12;14" | IA9_fig_vio$any.tnx=="t14_16" | IA9_fig_vio$any.tnx=="t14_20" | IA9_fig_vio$any.tnx=="t4_14" | IA9_fig_vio$any.tnx=="t6;14" | IA9_fig_vio$any.tnx=="t8_14"] <- 1
 IA9_CNV_BL$any.Tnx[IA9_fig_vio$any.tnx=="none"] <- 0
 
-test.wil.any.tnx <- wilcox.test(R2_amp ~ any.Tnx, data=IA9_CNV_BL)
+#test.wil.any.tnx <- wilcox.test(R2_amp ~ any.Tnx, data=IA9_CNV_BL)
 
 
 

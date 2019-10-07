@@ -39,11 +39,11 @@
 
 - Vioplot.tnx.hrd.1q.CoMMpass.R [- R script](/R.scripts/Vioplot.tnx.hrd.1q.CoMMpass.R)
  
-    <img src=/figure3.svg width="1100">  
+    <img src=/R.scripts/images/Vioplot_mainTnx_HRD.1q_CoMMpass_IA9.jpg width="600">  
 
 - Surv.neu.mk.commpass.R [- R script](/R.scripts/Surv.neu.mk.commpass.R)
 
-<img src=/figure3.svg width="1100"> 
+<img src=/R.scripts/images/Neu.vs.No_Neu.R2.98.no.int.os width="500"> 
 
 - GVIS.commpass.R [- R script](/R.scripts/GVIS.R)
 

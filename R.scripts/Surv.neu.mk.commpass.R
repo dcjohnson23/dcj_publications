@@ -21,7 +21,7 @@ smed <- function(x) {
 # Numbers are crunched and the pdf output file is then instantiated.  To work without writing to a file, 
 # you could just comment out the pdf line.
 
-perl.data.new <- read.table("C:/Users/johnson/Desktop/CoMMpass/R2.coMMpass.2.csv", sep=",",header = TRUE, na.strings="NA")
+perl.data.new <- read.table("/CoMMpass/R2.coMMpass.2.csv", sep=",",header = TRUE, na.strings="NA")
 perl.data <- subset(perl.data.new, !is.na(R2Call))
 perl.data.no.int <- subset(perl.data, pathway=="NonIntensive")
 perl.data.int <- subset(perl.data, pathway=="Intensive")
